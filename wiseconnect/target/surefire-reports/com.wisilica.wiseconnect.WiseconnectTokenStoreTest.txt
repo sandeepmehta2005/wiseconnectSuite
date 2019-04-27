@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.wisilica.wiseconnect.WiseconnectTokenStoreTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.045 s <<< FAILURE! - in com.wisilica.wiseconnect.WiseconnectTokenStoreTest
+givenUser_whenRevokeRefreshToken_thenRefreshTokenInvalidError(com.wisilica.wiseconnect.WiseconnectTokenStoreTest)  Time elapsed: 0.035 s  <<< ERROR!
+java.net.ConnectException: Connection refused (Connection refused)
+	at com.wisilica.wiseconnect.WiseconnectTokenStoreTest.obtainAccessToken(WiseconnectTokenStoreTest.java:36)
+	at com.wisilica.wiseconnect.WiseconnectTokenStoreTest.givenUser_whenRevokeRefreshToken_thenRefreshTokenInvalidError(WiseconnectTokenStoreTest.java:67)
+

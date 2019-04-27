@@ -1,0 +1,41 @@
+
+–com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenStore#readAuthentication(Lorg/springframework/security/oauth2/common/OAuth2AccessToken;)Lorg/springframework/security/oauth2/provider/OAuth2Authentication;
+__unknown_file ("paramAnnotations*è
+paramAnnotations±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.java®2 ®(K™
+ß
+±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.javaß ß(
+%2"
+__annotate*
+java.lang.Override*G
+E
+token<org.springframework.security.oauth2.common.OAuth2AccessTokenî
+ë
+±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.java®E ®(JE
+token<org.springframework.security.oauth2.common.OAuth2AccessToken"__annotation*
+
+%2*
+1*Á
+
+1±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.java© ©(ˇ¸
+±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.java©' ©(7
+%0java.lang.String"Yorg.springframework.security.oauth2.common.OAuth2AccessToken#getValue()Ljava/lang/String;*G
+E
+token<org.springframework.security.oauth2.common.OAuth2AccessToken2
+getValue()©¶
+±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.java© ©(8G
+%1Aorg.springframework.security.oauth2.provider.OAuth2Authentication"§com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenStore#readAuthentication(Ljava/lang/String;)Lorg/springframework/security/oauth2/provider/OAuth2Authentication;*><
+:com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenStore*
+
+%0java.lang.String2&readAuthentication(Ljava/lang/String;)"ˇ
+±
+§/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.java© ©(9I
+G
+%1Aorg.springframework.security.oauth2.provider.OAuth2Authentication:E
+token<org.springframework.security.oauth2.common.OAuth2AccessTokenB><
+:com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenStore

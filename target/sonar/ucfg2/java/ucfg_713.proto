@@ -1,0 +1,16 @@
+
+bcom.wisilica.wiseconnect.core.oauth2.WiseconnectUserDetails#getAuthorities()Ljava/util/Collection;
+__unknown_file ("1*«
+1°
+¥/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectUserDetails.java 	  (¤
+¡
+°
+¥/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectUserDetails.java 	  (
+%0java.util.List"__id*P*N=
+;com.wisilica.wiseconnect.core.oauth2.WiseconnectUserDetails"
+authorities"Ë
+°
+¥/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectUserDetails.java   (
+
+%0java.util.ListB?=
+;com.wisilica.wiseconnect.core.oauth2.WiseconnectUserDetails

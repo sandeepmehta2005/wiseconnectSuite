@@ -1,0 +1,17 @@
+
+™com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenStore#serializeAuthentication(Lorg/springframework/security/oauth2/provider/OAuth2Authentication;)[B
+__unknown_file ("1*Á
+1±
+¤/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.javaî î(!È
+Å
+±
+¤/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.javaî î(;
+%0$Array"borg.springframework.security.oauth2.common.util.SerializationUtils#serialize(Ljava/lang/Object;)[B*F"D
+Borg.springframework.security.oauth2.common.util.SerializationUtils*U
+S
+authenticationAorg.springframework.security.oauth2.provider.OAuth2Authentication"¼
+±
+¤/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenStore.javaî î(<
+"":S
+authenticationAorg.springframework.security.oauth2.provider.OAuth2AuthenticationB><
+:com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenStore

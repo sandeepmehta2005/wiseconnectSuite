@@ -1,0 +1,24 @@
+
+hcom.wisilica.wiseconnect.commons.WiseconnectContextProvider#getBean(Ljava/lang/Class;)Ljava/lang/Object;
+__unknown_file ("1*„
+1≥
+®/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCommons/src/main/java/com/wisilica/wiseconnect/commons/WiseconnectContextProvider.java (!Œ
+À
+≥
+®/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCommons/src/main/java/com/wisilica/wiseconnect/commons/WiseconnectContextProvider.java (!4
+%0.org.springframework.context.ApplicationContext"__id*W*U=
+;com.wisilica.wiseconnect.commons.WiseconnectContextProvider"
+applicationContextíè
+≥
+®/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCommons/src/main/java/com/wisilica/wiseconnect/commons/WiseconnectContextProvider.java (4
+%1T"Zorg.springframework.beans.factory.BeanFactory#getBean(Ljava/lang/Class;)Ljava/lang/Object;*6
+4
+%0.org.springframework.context.ApplicationContext*
+
+	beanClassjava.lang.Class2getBean(Ljava/lang/Class;)"¡
+≥
+®/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCommons/src/main/java/com/wisilica/wiseconnect/commons/WiseconnectContextProvider.java (5	
+
+%1T:
+	beanClassjava.lang.ClassB?=
+;com.wisilica.wiseconnect.commons.WiseconnectContextProvider

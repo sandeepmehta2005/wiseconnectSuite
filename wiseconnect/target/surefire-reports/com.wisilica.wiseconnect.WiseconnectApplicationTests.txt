@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: com.wisilica.wiseconnect.WiseconnectApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.151 s <<< FAILURE! - in com.wisilica.wiseconnect.WiseconnectApplicationTests
+oauthFlowTesting(com.wisilica.wiseconnect.WiseconnectApplicationTests)  Time elapsed: 0.15 s  <<< ERROR!
+java.net.ConnectException: Connection refused (Connection refused)
+	at com.wisilica.wiseconnect.WiseconnectApplicationTests.authorizationCodeGrantFlow(WiseconnectApplicationTests.java:85)
+	at com.wisilica.wiseconnect.WiseconnectApplicationTests.oauthFlowTesting(WiseconnectApplicationTests.java:52)
+

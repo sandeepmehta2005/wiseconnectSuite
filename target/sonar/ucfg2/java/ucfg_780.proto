@@ -1,0 +1,465 @@
+
+Šcom.wisilica.wiseconnect.util.WebUtil#getRequestDetailsForLog(Ljavax/servlet/http/HttpServletRequest;Ljava/lang/String;)Ljava/lang/String;
+__unknown_file ("7*Þ	
+2–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javam m(ô
+ñ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javam m()
+%57java.lang.String"__concat*
+Parameters: [* 
+
+
+parametersjava.lang.Stringá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javam m(/
+%58java.lang.String"__concat*
+
+%57java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javam m(;
+%59java.lang.String"__concat*
+
+%58java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javam m(<
+%60java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%59java.lang.String2append(Ljava/lang/String;)*
+1*þ
+3–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javak k(ö
+ó
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javak k(+
+%55java.lang.String"__concat*
+Parameters: NONE*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javak k(,
+%56java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%55java.lang.String2append(Ljava/lang/String;)*
+1*ã
+4–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf f(!ÌÉ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf' f(B
+%48java.util.Enumeration"Gjavax.servlet.ServletRequest#getParameterNames()Ljava/util/Enumeration;*2
+0
+request%javax.servlet.http.HttpServletRequest2getParameterNames()½
+º
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf f(C
+%49java.util.ArrayList"Hjava.util.Collections#list(Ljava/util/Enumeration;)Ljava/util/ArrayList;*"
+java.util.Collections*
+
+%48java.util.Enumerationœ™
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf f(L
+%50java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%49java.util.ArrayList2stream()ßÜ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf g(G
+%51java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;* 
+
+%50java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)Ü
+Ù
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javah h(*!
+%52java.util.stream.Collector"Yjava.util.stream.Collectors#joining(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;*"
+java.util.stream.Collectors*
+
+	delimiterjava.lang.Stringôñ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf h(+
+%53java.lang.String"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%51java.util.stream.Stream*#
+!
+%52java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Ý
+Ú
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaf h(,
+
+parametersjava.lang.String"__id*
+
+%53java.lang.Stringöó
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaj j(
+%54boolean"java.lang.String#isEmpty()Z* 
+
+
+parametersjava.lang.String2	isEmpty()*
+2
+3*Ø	
+5–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javac c(î
+ë
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javac c(#
+%44java.lang.String"__concat*
+
+Headers: [*
+
+headersjava.lang.Stringá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javac c()
+%45java.lang.String"__concat*
+
+%44java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javac c(5
+%46java.lang.String"__concat*
+
+%45java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javac c(6
+%47java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%46java.lang.String2append(Ljava/lang/String;)*
+4*ü
+6–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaa a(ô
+ñ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaa a()
+%42java.lang.String"__concat*
+Headers : NONE*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaa a(*
+%43java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%42java.lang.String2append(Ljava/lang/String;)*
+4*Éa
+7–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaU U((ÔÑ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaU U(&
+%0java.lang.StringBuilder"java.lang.StringBuilderæ
+ã
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaU U((
+%1"!java.lang.StringBuilder#<init>()V*
+
+%0java.lang.StringBuilderâ
+ß
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaU U()
+sbjava.lang.StringBuilder"__id*
+
+%0java.lang.StringBuilderº·
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(/
+%2java.lang.String"Cjavax.servlet.http.HttpServletRequest#getMethod()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getMethod()é
+æ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(/
+%3java.lang.String"__concat*
+Request = [*
+
+%2java.lang.Stringß
+Ü
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(5
+%4java.lang.String"__concat*
+
+%3java.lang.String*
+ ÎË
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV8 V(O
+%5java.lang.StringBuffer"Mjavax.servlet.http.HttpServletRequest#getRequestURL()Ljava/lang/StringBuffer;*2
+0
+request%javax.servlet.http.HttpServletRequest2getRequestURL()ø
+õ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(O
+%6java.lang.String"__concat*
+
+%4java.lang.String*
+
+%5java.lang.StringBufferß
+Ü
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(U
+%7java.lang.String"__concat*
+
+%6java.lang.String*
+]ù
+ö
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(a
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+
+	delimiterjava.lang.StringßÜ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaV V(b
+%9java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%8java.lang.String2append(Ljava/lang/String;)º·
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaW# W(:
+%10java.lang.String">javax.servlet.ServletRequest#getRemoteAddr()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getRemoteAddr()ò
+ï
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaW W(:
+%11java.lang.String"__concat*
+Remote address = [*
+
+%10java.lang.Stringá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaW W(@
+%12java.lang.String"__concat*
+
+%11java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaW W(L
+%13java.lang.String"__concat*
+
+%12java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaW W(M
+%14java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%13java.lang.String2append(Ljava/lang/String;)º·
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaX  X(7
+%15java.lang.String">javax.servlet.ServletRequest#getRemoteHost()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getRemoteHost()ï
+ì
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaX X(7
+%16java.lang.String"__concat*
+Remote host = [*
+
+%15java.lang.Stringá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaX X(=
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaX X(I
+%18java.lang.String"__concat*
+
+%17java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaX X(J
+%19java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%18java.lang.String2append(Ljava/lang/String;)œ™
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaY  Y(7
+
+%20int"-javax.servlet.ServletRequest#getRemotePort()I*2
+0
+request%javax.servlet.http.HttpServletRequest2getRemotePort()â
+ß
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaY Y(7
+%21java.lang.String"__concat*
+Remote port = [*
+
+
+%20intá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaY Y(=
+%22java.lang.String"__concat*
+
+%21java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaY Y(I
+%23java.lang.String"__concat*
+
+%22java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaY Y(J
+%24java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%23java.lang.String2append(Ljava/lang/String;)ÃÀ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaZ  Z(7
+%25java.lang.String"Gjavax.servlet.http.HttpServletRequest#getRemoteUser()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getRemoteUser()ï
+ì
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaZ Z(7
+%26java.lang.String"__concat*
+Remote user = [*
+
+%25java.lang.Stringá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaZ Z(=
+%27java.lang.String"__concat*
+
+%26java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaZ Z(I
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javaZ Z(J
+%29java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%28java.lang.String2append(Ljava/lang/String;)¿¼
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java[ [(3
+%30java.lang.String"Ejavax.servlet.http.HttpServletRequest#getAuthType()Ljava/lang/String;*2
+0
+request%javax.servlet.http.HttpServletRequest2getAuthType()í
+ê
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java[ [(3
+%31java.lang.String"__concat*
+Auth type = [*
+
+%30java.lang.Stringá
+Þ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java[ [(9
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+]û
+ø
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java[ [(E
+%33java.lang.String"__concat*
+
+%32java.lang.String*
+
+	delimiterjava.lang.StringáÞ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java[ [(F
+%34java.lang.StringBuilder"Kjava.lang.StringBuilder#append(Ljava/lang/String;)Ljava/lang/StringBuilder;*
+
+sbjava.lang.StringBuilder*
+
+%33java.lang.String2append(Ljava/lang/String;)ÏÌ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java\$ \(<
+%35java.util.Enumeration"Mjavax.servlet.http.HttpServletRequest#getHeaderNames()Ljava/util/Enumeration;*2
+0
+request%javax.servlet.http.HttpServletRequest2getHeaderNames()½
+º
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java\ \(=
+%36java.util.ArrayList"Hjava.util.Collections#list(Ljava/util/Enumeration;)Ljava/util/ArrayList;*"
+java.util.Collections*
+
+%35java.util.Enumerationœ™
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java\ \(F
+%37java.util.stream.Stream"6java.util.Collection#stream()Ljava/util/stream/Stream;*
+
+%36java.util.ArrayList2stream()ßÜ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java\ ](]
+%38java.util.stream.Stream"Sjava.util.stream.Stream#map(Ljava/util/function/Function;)Ljava/util/stream/Stream;* 
+
+%37java.util.stream.Stream*
+""2"map(Ljava/util/function/Function;)Ü
+Ù
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java^ ^(*!
+%39java.util.stream.Collector"Yjava.util.stream.Collectors#joining(Ljava/lang/CharSequence;)Ljava/util/stream/Collector;*"
+java.util.stream.Collectors*
+
+	delimiterjava.lang.Stringôñ
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java\ ^(+
+%40java.lang.String"Ojava.util.stream.Stream#collect(Ljava/util/stream/Collector;)Ljava/lang/Object;* 
+
+%38java.util.stream.Stream*#
+!
+%39java.util.stream.Collector2%collect(Ljava/util/stream/Collector;)Ú
+×
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java\ ^(,
+headersjava.lang.String"__id*
+
+%40java.lang.Stringóð
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.java` `(
+%41boolean"java.lang.String#isEmpty()Z*
+
+headersjava.lang.String2	isEmpty()*
+5
+6*î
+1–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javao	 o(˜•
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javao	 o(
+%61java.lang.String"4java.lang.StringBuilder#toString()Ljava/lang/String;*
+
+sbjava.lang.StringBuilder2
+toString()"´
+–
+‹/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/util/WebUtil.javao o(
+
+%61java.lang.String:0
+request%javax.servlet.http.HttpServletRequest:
+	delimiterjava.lang.StringB)"'
+%com.wisilica.wiseconnect.util.WebUtil

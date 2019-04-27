@@ -1,0 +1,37 @@
+
+Äcom.wisilica.wiseconnect.WiseconnectConfig#jacksonBuilder()Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;
+__unknown_file ("1*ò
+1õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java6. 6(O±Æ
+õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java62 6(MI
+%0Corg.springframework.http.converter.json.Jackson2ObjectMapperBuilder"Corg.springframework.http.converter.json.Jackson2ObjectMapperBuilder√
+¿
+õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java6. 6(O
+%1"Morg.springframework.http.converter.json.Jackson2ObjectMapperBuilder#<init>()V*K
+I
+%0Corg.springframework.http.converter.json.Jackson2ObjectMapperBuilderƒ
+¡
+õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java6 6(PN
+builderCorg.springframework.http.converter.json.Jackson2ObjectMapperBuilder"__id*K
+I
+%0Corg.springframework.http.converter.json.Jackson2ObjectMapperBuilderÍ
+Á
+õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java7! 7(E9
+%23com.fasterxml.jackson.databind.SerializationFeature"__id*
+""”–
+õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java7 7(FI
+%3Corg.springframework.http.converter.json.Jackson2ObjectMapperBuilder"Æorg.springframework.http.converter.json.Jackson2ObjectMapperBuilder#featuresToEnable([Ljava/lang/Object;)Lorg/springframework/http/converter/json/Jackson2ObjectMapperBuilder;*P
+N
+builderCorg.springframework.http.converter.json.Jackson2ObjectMapperBuilder*;
+9
+%23com.fasterxml.jackson.databind.SerializationFeature2%featuresToEnable([Ljava/lang/Object;)"
+õ
+ê/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/WiseconnectConfig.java8 8(P
+N
+builderCorg.springframework.http.converter.json.Jackson2ObjectMapperBuilderB.,
+*com.wisilica.wiseconnect.WiseconnectConfig

@@ -28,4 +28,6 @@ public class Test {
 	int i = 100;
 
 	int ii = 29;
+
+	String temp = "Changes of branch 1";
 }
