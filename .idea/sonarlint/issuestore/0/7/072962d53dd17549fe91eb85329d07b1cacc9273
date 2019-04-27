@@ -1,0 +1,24 @@
+
+Osquid:S3878ì"8Remove this array creation and simply pass the elements.(óèÍJ
+¹%squid:RedundantThrowsDeclarationCheck­"Remove the declaration of thrown exception 'org.springframework.dao.EmptyResultDataAccessException' which is a runtime exception.(™ô¹úÿÿÿÿ
+Tsquid:S1905ú"7Remove this unnecessary cast to "OAuth2Authentication".(³œ¼ƒşÿÿÿÿ
+Psquid:S3878º"8Remove this array creation and simply pass the elements.(ñ†¸‚
+Usquid:S3878 "8Remove this array creation and simply pass the elements.( ¨ì‡úÿÿÿÿ
+Zsquid:S1858"B"getValue" returns a string, there's no need to call "toString()".(ßõ³“
+Qsquid:S1905ò"4Remove this unnecessary cast to "OAuth2AccessToken".(·”»‹ÿÿÿÿÿ
+Usquid:S3878›"8Remove this array creation and simply pass the elements.(‘¹Šôşÿÿÿÿ
+Tsquid:S1905¶"7Remove this unnecessary cast to "OAuth2Authentication".(÷Øş“üÿÿÿÿ
+†squid:S1488I"jImmediately return this expression instead of assigning it to the temporary variable "refreshCacheFields".(Ğ‡›çúÿÿÿÿ
+squid:S1488¢"dImmediately return this expression instead of assigning it to the temporary variable "accessTokens".(‹“äùÿÿÿÿ
+Ksquid:S1905^"4Remove this unnecessary cast to "OAuth2AccessToken".(æ…ßî
+Osquid:S3878ª"8Remove this array creation and simply pass the elements.(”ÅøS
+hsquid:CommentedOutCodeLine»"<This block of commented-out lines of code should be removed.(ÉğÁóÿÿÿÿÿ
+squid:S1488±"dImmediately return this expression instead of assigning it to the temporary variable "accessTokens".(‹“äùÿÿÿÿ
+Šsquid:S1488P"nImmediately return this expression instead of assigning it to the temporary variable "accessTokenCacheFields".(™—•Œøÿÿÿÿ
+Rsquid:S1905ö"5Remove this unnecessary cast to "OAuth2RefreshToken".(£›Øúÿÿÿÿ
+Osquid:S3878b"8Remove this array creation and simply pass the elements.(û”ãÚ
+osquid:S2077¦"RUse a variable binding mechanism to construct this query instead of concatenation.(õõòïúÿÿÿÿ
+Ksquid:S1905"4Remove this unnecessary cast to "OAuth2AccessToken".(µ¶?
+Tsquid:S1905€"7Remove this unnecessary cast to "OAuth2Authentication".(÷Øş“üÿÿÿÿ
+„squid:S1192‘"gDefine a constant instead of duplicating this literal "Failed to find access token for token " 3 times.(°ãİŠşÿÿÿÿ
+Usquid:S3878¦"8Remove this array creation and simply pass the elements.(õõòïúÿÿÿÿ

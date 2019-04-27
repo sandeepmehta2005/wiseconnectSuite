@@ -1,0 +1,16 @@
+
+^squid:S1854'"BRemove this useless assignment to local variable "additionalInfo".(·ñ¥óüÿÿÿÿ
+tsquid:UselessImportCheck"PRemove this unused import 'com.wisilica.wiseconnect.model.entity.UserLoginInfo'.(Ùìã–
+Hsquid:S1481S"1Remove this unused "authResponse" local variable.(¨¤ˆÛ
+Bsquid:S1659$"&Declare "deviceId" on a separate line.(•”··þÿÿÿÿ
+‰squid:UselessImportCheck	"`Remove this unused import 'org.springframework.security.oauth2.common.DefaultOAuth2AccessToken'.(”ú©Âüÿÿÿÿ
+Osquid:S1481'"3Remove this unused "additionalInfo" local variable.(·ñ¥óüÿÿÿÿ
+Csquid:S1659$"'Declare "modelInfo" on a separate line.(•”··þÿÿÿÿ
+P"squid:SwitchLastCaseIsDefaultCheck-""Add a default case to this switch.(“çìÁ
+Csquid:S1659$"'Declare "sessionId" on a separate line.(•”··þÿÿÿÿ
+Gsquid:S1659$"+Declare "bundlePackage" on a separate line.(•”··þÿÿÿÿ
+@squid:S1659$"$Declare "osInfo" on a separate line.(•”··þÿÿÿÿ
+Hsquid:S1602 ",Remove useless curly braces around statement(âÓ€çÿÿÿÿÿ
+Wsquid:S1854S"@Remove this useless assignment to local variable "authResponse".(¨¤ˆÛ
+Esquid:S1659$")Declare "deviceToken" on a separate line.(•”··þÿÿÿÿ
+Dsquid:S1659$"(Declare "appVersion" on a separate line.(•”··þÿÿÿÿ

@@ -1,0 +1,108 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- Imports default Ignite configuration -->
+
+    <bean class="org.apache.ignite.configuration.CacheConfiguration">
+        <property name="name" value="mycache"/>
+        <!-- Configure query entities -->
+        <property name="queryEntities">
+            <list>
+                <bean class="org.apache.ignite.cache.QueryEntity">
+                    <property name="keyType" value="java.lang.String"/>
+                    <property name="valueType" value="com.wisilica.wiseconnect.model.entity.AccessToken"/>
+                    <property name="fields">
+                        <map>
+                            <entry key="tokenId" value="java.lang.String"></entry>
+                            <entry key="token" value="java.lang.Bytes"></entry>
+                            <entry key="authendicationId" value="java.lang.String"></entry>
+                            <entry key="userName" value="java.lang.String"></entry>
+                            <entry key="clientId" value="java.lang.String"></entry>
+                            <entry key="authentication" value="java.lang.Bytes"></entry>
+                            <entry key="refreshToken" value="java.lang.String"></entry>
+                        </map>
+                    </property>
+
+                    <property name="indexes">
+                        <list>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="tokenId"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="token"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="authendicationId"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="userName"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="clientId"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="authentication"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="refreshToken"/>
+                            </bean>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.apache.ignite.configuration.CacheConfiguration">
+        <property name="name" value="mycache"/>
+        <!-- Configure query entities -->
+        <property name="queryEntities">
+            <list>
+                <bean class="org.apache.ignite.cache.QueryEntity">
+                    <property name="keyType" value="java.lang.String"/>
+                    <property name="valueType" value="com.wisilica.wiseconnect.model.entity.RefreshToken"/>
+                    <property name="fields">
+                        <map>
+                            <entry key="tokenId" value="java.lang.String"></entry>
+                            <entry key="token" value="java.lang.Bytes"></entry>
+                            <entry key="authentication" value="java.lang.Bytes"></entry>
+                        </map>
+                    </property>
+
+                    <property name="indexes">
+                        <list>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="tokenId"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="token"/>
+                            </bean>
+                            <bean class="org.apache.ignite.cache.QueryIndex">
+                                <constructor-arg value="authentication"/>
+                            </bean>
+                        </list>
+                    </property>
+                </bean>
+            </list>
+        </property>
+    </bean>
+
+    <bean class="org.apache.ignite.configuration.IgniteConfiguration" id="ignite.cfg">
+
+
+        <!-- Other Ignite configurations-->
+        <!-- Explicitly configure TCP discovery SPI to provide list of initial nodes. -->
+    </bean>
+
+
+    <!-- <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.vm.TcpDiscoveryVmIpFinder">-->
+    <bean class="org.apache.ignite.spi.discovery.tcp.ipfinder.multicast.TcpDiscoveryMulticastIpFinder">
+        <property name="addresses">
+            <list>
+                <!-- In distributed environment, replace with actual host IP address. -->
+                <value>100.200.300.1:47400</value>
+            </list>
+        </property>
+    </bean>
+</beans>
