@@ -1,0 +1,61 @@
+
+ com.wisilica.wiseconnect.dao.impl.AuthenticationDaoImpl#getUserAppInfoDataJoin(Ljava/lang/String;Ljava/lang/String;)Lcom/wisilica/wiseconnect/model/entity/User;
+__unknown_file ("paramAnnotations*›	
+paramAnnotations­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¤# ¤(Eý
+ú
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java£ £(
+
+%2"
+__annotate*
+java.lang.Override*
+
+userNamejava.lang.Stringç
+ä
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¤+ ¤(3
+userNamejava.lang.String"__annotation*
+
+%2ý
+ú
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java£ £(
+
+%3"
+__annotate*
+java.lang.Override*
+
+passwordjava.lang.Stringç
+ä
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¤< ¤(D
+passwordjava.lang.String"__annotation*
+
+%3*
+1*±
+
+1­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¥	 ¥(È
+Å
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¥	 ¥(<
+%06com.wisilica.wiseconnect.dao.repository.UserRepository"__id*O*M9
+7com.wisilica.wiseconnect.dao.impl.AuthenticationDaoImpl"
+userRepositoryÉÆ
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¥	 ¥(D0
+%1*com.wisilica.wiseconnect.model.entity.User"¡com.wisilica.wiseconnect.dao.repository.UserRepository#fetchUserAppInfoDataJoin(Ljava/lang/String;Ljava/lang/String;)Lcom/wisilica/wiseconnect/model/entity/User;*>
+<
+%06com.wisilica.wiseconnect.dao.repository.UserRepository*
+
+userNamejava.lang.String*
+
+passwordjava.lang.String2>fetchUserAppInfoDataJoin(Ljava/lang/String;Ljava/lang/String;)"ä
+­
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.java¥ ¥(E2
+0
+%1*com.wisilica.wiseconnect.model.entity.User:
+userNamejava.lang.String:
+passwordjava.lang.StringB;9
+7com.wisilica.wiseconnect.dao.impl.AuthenticationDaoImpl

@@ -1,0 +1,723 @@
+
+Ücom.wisilica.wiseconnect.core.oauth2.WiseconnectTokenEnhancer#enhance(Lorg/springframework/security/oauth2/common/OAuth2AccessToken;Lorg/springframework/security/oauth2/provider/OAuth2Authentication;)Lorg/springframework/security/oauth2/common/OAuth2AccessToken;
+__unknown_file ("paramAnnotations*¬
+13≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaT T($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaT T(/
+%34java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaU  U(0
+%35java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()¯
+ı
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaU U(0
+	modelInfojava.lang.String"__id*
+
+%35java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaV V(
+%36org.slf4j.Logger"__id*
+""êç
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaV V(N
+%37void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%36org.slf4j.Logger*#!
+Parameter Name - modelInfo: {} *
+
+	modelInfojava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*≈
+14≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaP P($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaP P(0
+%30java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaQ! Q(1
+%31java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()˘
+ˆ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaQ Q(1
+
+appVersionjava.lang.String"__id*
+
+%31java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaR R(
+%32org.slf4j.Logger"__id*
+""íè
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaR R(P
+%33void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%32org.slf4j.Logger*$"
+ Parameter Name - appVersion: {} * 
+
+
+appVersionjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*»
+15≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaL L($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaL L(1
+%26java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaM" M(2
+%27java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()˙
+˜
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaM M(2
+deviceTokenjava.lang.String"__id*
+
+%27java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaN N(
+%28org.slf4j.Logger"__id*
+""îë
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaN N(R
+%29void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%28org.slf4j.Logger*%#
+!Parameter Name - deviceToken: {} *!
+
+deviceTokenjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*¬
+16≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaH H($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaH H(/
+%22java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaI  I(0
+%23java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()¯
+ı
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaI I(0
+	sessionIdjava.lang.String"__id*
+
+%23java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaJ J(
+%24org.slf4j.Logger"__id*
+""êç
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaJ J(N
+%25void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%24org.slf4j.Logger*#!
+Parameter Name - sessionId: {} *
+
+	sessionIdjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*ø
+17≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaD D($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaD D(.
+%18java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaE E(/
+%19java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()˜
+Ù
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaE E(/
+deviceIdjava.lang.String"__id*
+
+%19java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaF F(
+%20org.slf4j.Logger"__id*
+""éã
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaF F(L
+%21void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%20org.slf4j.Logger*" 
+Parameter Name - deviceId: {} *
+
+deviceIdjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*Œ
+18≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java@ @($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java@ @(3
+%14java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaA$ A(4
+%15java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()¸
+˘
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaA A(4!
+bundlePackagejava.lang.String"__id*
+
+%15java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaB B(
+%16org.slf4j.Logger"__id*
+""òï
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaB B(V
+%17void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%16org.slf4j.Logger*'%
+#Parameter Name - bundlePackage: {} *#
+!
+bundlePackagejava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*—
+19≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java< <($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java< <(5
+%10java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java=% =(5
+%11java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()˝
+˙
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java= =(5"
+bundleClientIdjava.lang.String"__id*
+
+%11java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java> >(
+%12org.slf4j.Logger"__id*
+""öó
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java> >(X
+%13void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%12org.slf4j.Logger*(&
+$Parameter Name - bundleClientId: {} *$
+"
+bundleClientIdjava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*Å
+paramAnnotations≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java$$ $(h±
+Æ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java# #(
+%2"
+__annotate*
+java.lang.Override*M
+K
+accessToken<org.springframework.security.oauth2.common.OAuth2AccessTokenõ
+ò
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java$7 $(BK
+accessToken<org.springframework.security.oauth2.common.OAuth2AccessToken"__annotation*
+
+%2π
+∂
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java# #(
+%3"
+__annotate*
+java.lang.Override*U
+S
+authenticationAorg.springframework.security.oauth2.provider.OAuth2Authentication£
+†
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java$Y $(gS
+authenticationAorg.springframework.security.oauth2.provider.OAuth2Authentication"__annotation*
+
+%3*
+22*ø
+1¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaå3 å(BÁ‰
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaå7 å(@
+%71java.util.HashMap"java.util.HashMap˙
+˜
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaå3 å(B
+%72"java.util.HashMap#<init>()V*
+
+%71java.util.HashMap˝
+˙
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaå å(C
+additionalInfojava.util.Map"__id*
+
+%71java.util.HashMapª∏
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaç ç(4
+%73java.lang.Object"Ijava.util.Map#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;*!
+
+additionalInfojava.util.Map*
+
+wiseStatus*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus2)put(Ljava/lang/Object;Ljava/lang/Object;)‘—
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaé é(Y
+%74void"norg.springframework.security.oauth2.common.DefaultOAuth2AccessToken#setAdditionalInformation(Ljava/util/Map;)V*M
+K
+accessToken<org.springframework.security.oauth2.common.OAuth2AccessToken*!
+
+additionalInfojava.util.Map2)setAdditionalInformation(Ljava/util/Map;)"Ü
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaê ê(M
+K
+accessToken<org.springframework.security.oauth2.common.OAuth2AccessToken*√
+2¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÉ É(‚
+ﬂ
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÉ) É(;
+%67java.lang.Integer"__id*
+""ôñ
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÉ É(<
+%68void"Qcom.wisilica.wiseconnect.core.util.WiseStatus#setStatusCode(Ljava/lang/Integer;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%67java.lang.Integer2"setStatusCode(Ljava/lang/Integer;)·
+ﬁ
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÑ, Ñ(J
+%69java.lang.String"__id*
+""úô
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÑ Ñ(K
+%70void"Scom.wisilica.wiseconnect.core.util.WiseStatus#setStatusMessage(Ljava/lang/String;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%69java.lang.String2$setStatusMessage(Ljava/lang/String;)*
+1*⁄
+3≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java (‡
+›
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java) (A
+%63java.lang.Integer"__id*
+""óî
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java (B
+%64void"Qcom.wisilica.wiseconnect.core.util.WiseStatus#setStatusCode(Ljava/lang/Integer;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%63java.lang.Integer2"setStatusCode(Ljava/lang/Integer;)˛˚
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÄ, Ä(E
+%65java.lang.String"Scom.wisilica.wiseconnect.model.response.AuthResponse#getMessage()Ljava/lang/String;*F
+D
+authResponse4com.wisilica.wiseconnect.model.response.AuthResponse2getMessage()úô
+¥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaÄ Ä(F
+%66void"Scom.wisilica.wiseconnect.core.util.WiseStatus#setStatusMessage(Ljava/lang/String;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%65java.lang.String2$setStatusMessage(Ljava/lang/String;)*
+1*ó
+4≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java}( }(=‡
+›
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java}( }(=B
+%59;com.wisilica.wiseconnect.core.service.AuthenticationService"__id*\*Z?
+=com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenEnhancer"
+authenticationService «
+≥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java}( }(Ω;
+%604com.wisilica.wiseconnect.model.response.AuthResponse"£com.wisilica.wiseconnect.core.service.AuthenticationService#appRegistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/wisilica/wiseconnect/model/response/AuthResponse;*D
+B
+%59;com.wisilica.wiseconnect.core.service.AuthenticationService*$
+"
+bundleClientIdjava.lang.String*#
+!
+bundlePackagejava.lang.String*
+
+deviceIdjava.lang.String*
+
+	sessionIdjava.lang.String*"
+ 
+organizationIdjava.lang.Long*!
+
+deviceTokenjava.lang.String* 
+
+
+appVersionjava.lang.String*
+
+	modelInfojava.lang.String*
+
+osInfojava.lang.String2±appRegistration(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/Long;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)ƒ
+¡
+≥
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java} }(æD
+authResponse4com.wisilica.wiseconnect.model.response.AuthResponse"__id*=
+;
+%604com.wisilica.wiseconnect.model.response.AuthResponse˙˜
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java~ ~(&
+%61java.lang.Integer"Rcom.wisilica.wiseconnect.model.response.AuthResponse#getAppId()Ljava/lang/Integer;*F
+D
+authResponse4com.wisilica.wiseconnect.model.response.AuthResponse2
+getAppId()‡
+›
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java~) ~(@
+%62java.lang.Integer"__id*
+""*
+2
+3*π
+5≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaz z(‡
+›
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaz% z(G
+%55java.lang.Integer"__id*
+""óî
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaz z(H
+%56void"Qcom.wisilica.wiseconnect.core.util.WiseStatus#setStatusCode(Ljava/lang/Integer;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%55java.lang.Integer2"setStatusCode(Ljava/lang/Integer;)ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java{( {(H
+%57java.lang.String"__id*
+""öó
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java{ {(I
+%58void"Scom.wisilica.wiseconnect.core.util.WiseStatus#setStatusMessage(Ljava/lang/String;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%57java.lang.String2$setStatusMessage(Ljava/lang/String;)*
+1*è
+6≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javay  y((Ã…
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javay  y(F
+%54boolean"-java.lang.String#matches(Ljava/lang/String;)Z*
+
+deviceIdjava.lang.String*
+/^[a-zA-Z0-9._]+$/2matches(Ljava/lang/String;)*
+4
+5*º
+7≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javag  g(0ùö
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javag$ g(.4
+%50-com.wisilica.wiseconnect.core.util.WiseStatus"-com.wisilica.wiseconnect.core.util.WiseStatus∞
+≠
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javag  g(0
+%51"7com.wisilica.wiseconnect.core.util.WiseStatus#<init>()V*6
+4
+%50-com.wisilica.wiseconnect.core.util.WiseStatus≥
+∞
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javag g(1;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus"__id*6
+4
+%50-com.wisilica.wiseconnect.core.util.WiseStatus‡
+›
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javav v(?
+%52java.lang.Integer"__id*
+""çä
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javav v(@
+%53void"Lcom.wisilica.wiseconnect.core.util.WiseStatus#setApiId(Ljava/lang/Integer;)V*=
+;
+
+wiseStatus-com.wisilica.wiseconnect.core.util.WiseStatus*
+
+%52java.lang.Integer2setApiId(Ljava/lang/Integer;)*
+4
+6*ß
+8≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java5 5(+‰
+·
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java5 5(+
+entryjava.util.Map$Entry"__id*
+""*
+7
+9*î
+9≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java7 7(´®
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java7 7("
+%49java.lang.String".java.util.Map$Entry#getKey()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2getKey()*,
+13
+14
+15
+16
+17
+18
+19
+20
+10
+11
+12*Ä
+20≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java8 8($ﬁ
+€
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java8 8(4
+%5java.lang.String"__id*
+""Æ´
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java92 9(B
+%6java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()∏
+µ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java9% 9(C
+%7java.lang.Long":java.lang.Long#valueOf(Ljava/lang/String;)Ljava/lang/Long;*"
+java.lang.Long*
+
+%6java.lang.String¯
+ı
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java9 9(C 
+organizationIdjava.lang.Long"__id*
+
+%7java.lang.Longﬁ
+€
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java: :(
+%8org.slf4j.Logger"__id*
+""ñì
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java: :(X
+
+%9void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%8org.slf4j.Logger*(&
+$Parameter Name - organizationId: {} *"
+ 
+organizationIdjava.lang.Long2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*È
+21≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java5. 5(?®•
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java5. 5(J
+%4java.util.Set"'java.util.Map#entrySet()Ljava/util/Set;*$
+"
+requestParametersjava.util.Map2
+entrySet()*
+8*Á
+10≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaa a(ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaa a(
+%47org.slf4j.Logger"__id*
+""ƒ¡
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaa a(;
+%48void"*org.slf4j.Logger#info(Ljava/lang/String;)V*
+
+%47org.slf4j.Logger*
+Getting input parameters2info(Ljava/lang/String;)*
+8*◊
+22≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java&6 &(D¯ı
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java&6 &(W@
+%0:org.springframework.security.oauth2.provider.OAuth2Request"êorg.springframework.security.oauth2.provider.OAuth2Authentication#getOAuth2Request()Lorg/springframework/security/oauth2/provider/OAuth2Request;*U
+S
+authenticationAorg.springframework.security.oauth2.provider.OAuth2Authentication2getOAuth2Request()âÜ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java&6 &(n
+%1java.util.Map"^org.springframework.security.oauth2.provider.BaseRequest#getRequestParameters()Ljava/util/Map;*B
+@
+%0:org.springframework.security.oauth2.provider.OAuth2Request2getRequestParameters()˘
+ˆ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java& &(o"
+requestParametersjava.util.Map"__id*
+
+%1java.util.MapÍ
+Á
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java) )(%"
+bundleClientIdjava.lang.String"__id*
+""È
+Ê
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java* *($!
+bundlePackagejava.lang.String"__id*
+""‰
+·
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java+ +(
+deviceIdjava.lang.String"__id*
+""Â
+‚
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java, ,( 
+	sessionIdjava.lang.String"__id*
+""Á
+‰
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java- -("
+deviceTokenjava.lang.String"__id*
+""Ê
+„
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java. .(!
+
+appVersionjava.lang.String"__id*
+""Â
+‚
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java/ /( 
+	modelInfojava.lang.String"__id*
+""‚
+ﬂ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java0 0(
+osInfojava.lang.String"__id*
+""Ë
+Â
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java1 1(# 
+organizationIdjava.lang.Long"__id*
+""ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java2 2(
+appIdjava.lang.Long"__id*
+""*
+21*Ì
+11≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java\ \($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java\ \(+
+%42java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java]) ](9
+%43java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()∫
+∑
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java] ](:
+%44java.lang.Long":java.lang.Long#valueOf(Ljava/lang/String;)Ljava/lang/Long;*"
+java.lang.Long*
+
+%43java.lang.String
+Ì
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java] ](:
+appIdjava.lang.Long"__id*
+
+%44java.lang.Longﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java^ ^(
+%45org.slf4j.Logger"__id*
+""ÜÉ
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.java^ ^(F
+%46void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%45org.slf4j.Logger*
+Parameter Name - appId: {} *
+
+appIdjava.lang.Long2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8*π
+12≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaX X($ﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaX X(,
+%38java.lang.String"__id*
+""Ø¨
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaY Y(-
+%39java.lang.String"0java.util.Map$Entry#getValue()Ljava/lang/Object;*
+
+entryjava.util.Map$Entry2
+getValue()ı
+Ú
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaY Y(-
+osInfojava.lang.String"__id*
+
+%39java.lang.Stringﬂ
+‹
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaZ Z(
+%40org.slf4j.Logger"__id*
+""äá
+≤
+ß/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectCore/src/main/java/com/wisilica/wiseconnect/core/oauth2/WiseconnectTokenEnhancer.javaZ Z(H
+%41void"<org.slf4j.Logger#info(Ljava/lang/String;Ljava/lang/Object;)V*
+
+%40org.slf4j.Logger* 
+Parameter Name - osInfo: {} *
+
+osInfojava.lang.String2*info(Ljava/lang/String;Ljava/lang/Object;)*
+8:K
+accessToken<org.springframework.security.oauth2.common.OAuth2AccessToken:S
+authenticationAorg.springframework.security.oauth2.provider.OAuth2AuthenticationBA?
+=com.wisilica.wiseconnect.core.oauth2.WiseconnectTokenEnhancer

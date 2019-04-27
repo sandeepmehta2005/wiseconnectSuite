@@ -1,0 +1,60 @@
+
+“com.wisilica.wiseconnect.dao.repository.impl.AppInfoInsertRepository#insertAppInfo(Lcom/wisilica/wiseconnect/model/entity/AppInfo;)Ljava/lang/Long;
+__unknown_file ("paramAnnotations*—
+paramAnnotations¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (.±
+®
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (
+%5"
+__annotate*#!
+javax.transaction.Transactional*:
+8
+appInfo-com.wisilica.wiseconnect.model.entity.AppInfoŽ
+‹
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java& (-8
+appInfo-com.wisilica.wiseconnect.model.entity.AppInfo"__annotation*
+
+%5*
+1*É
+1¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (È
+Å
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (%
+%0javax.persistence.EntityManager"__id*[*YF
+Dcom.wisilica.wiseconnect.dao.repository.impl.AppInfoInsertRepository"
+entityManagerŠ‡
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (&
+
+%1void"<javax.persistence.EntityManager#persist(Ljava/lang/Object;)V*'
+%
+%0javax.persistence.EntityManager*:
+8
+appInfo-com.wisilica.wiseconnect.model.entity.AppInfo2persist(Ljava/lang/Object;)È
+Å
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (%
+%2javax.persistence.EntityManager"__id*[*YF
+Dcom.wisilica.wiseconnect.dao.repository.impl.AppInfoInsertRepository"
+entityManager¦£
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (
+
+%3void"(javax.persistence.EntityManager#flush()V*'
+%
+%2javax.persistence.EntityManager2flush()æã
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java (!
+%4java.lang.Long"Hcom.wisilica.wiseconnect.model.entity.AppInfo#getAppId()Ljava/lang/Long;*:
+8
+appInfo-com.wisilica.wiseconnect.model.entity.AppInfo2
+getAppId()"Ó
+¸
+­/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/repository/impl/AppInfoInsertRepository.java ("
+
+%4java.lang.Long:8
+appInfo-com.wisilica.wiseconnect.model.entity.AppInfoBHF
+Dcom.wisilica.wiseconnect.dao.repository.impl.AppInfoInsertRepository

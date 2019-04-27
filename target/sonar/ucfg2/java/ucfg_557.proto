@@ -1,0 +1,17 @@
+
+Qcom.wisilica.wiseconnect.model.response.Status#getStatusCode()Ljava/lang/Integer;
+__unknown_file ("1*ˇ
+1§
+ô/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/response/Status.java1	 1(ç
+ä
+§
+ô/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/response/Status.java1	 1(
+%0java.lang.Integer"__id*B*@0
+.com.wisilica.wiseconnect.model.response.Status"
+
+statusCode"¬
+§
+ô/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/response/Status.java1 1(
+
+%0java.lang.IntegerB20
+.com.wisilica.wiseconnect.model.response.Status

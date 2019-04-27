@@ -1,0 +1,22 @@
+
+Ucom.wisilica.wiseconnect.model.util.OperationResult#getOperateLogId()Ljava/lang/Long;
+__unknown_file ("1*è
+1©
+û/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/util/OperationResult.java
+	 
+(ñ
+ì
+©
+û/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/util/OperationResult.java
+	 
+(
+%0java.lang.Long"__id*I*G5
+3com.wisilica.wiseconnect.model.util.OperationResult"
+operateLogId"ƒ
+©
+û/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/util/OperationResult.java
+ 
+(
+
+%0java.lang.LongB75
+3com.wisilica.wiseconnect.model.util.OperationResult

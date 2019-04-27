@@ -1,0 +1,47 @@
+
+Ücom.wisilica.wiseconnect.controller.WiseconnectControllerAdvice#supports(Lorg/springframework/core/MethodParameter;Ljava/lang/Class;)Z
+__unknown_file ("paramAnnotations*Ê	
+paramAnnotations∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java: :(lö
+ó
+∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java9 9(
+
+%0"
+__annotate*
+java.lang.Override*8
+6
+
+returnType(org.springframework.core.MethodParameterÑ
+Å
+∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java:) :(36
+
+returnType(org.springframework.core.MethodParameter"__annotation*
+
+%0Ñ
+Å
+∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java9 9(
+
+%1"
+__annotate*
+java.lang.Override*"
+ 
+converterTypejava.lang.ClassÓ
+Î
+∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java:^ :(k 
+converterTypejava.lang.Class"__annotation*
+
+%1*
+1*Ù
+1∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java;	 ;("ª
+∞
+•/home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnect/src/main/java/com/wisilica/wiseconnect/controller/WiseconnectControllerAdvice.java; ;(
+"":6
+
+returnType(org.springframework.core.MethodParameter: 
+converterTypejava.lang.ClassBCA
+?com.wisilica.wiseconnect.controller.WiseconnectControllerAdvice

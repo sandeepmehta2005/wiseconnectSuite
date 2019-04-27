@@ -1,0 +1,17 @@
+
+Scom.wisilica.wiseconnect.model.request.OperateRequest#getGrpDvcId()Ljava/lang/Long;
+__unknown_file ("1*“
+1«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/request/OperateRequest.java3	 3(–
+“
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/request/OperateRequest.java3	 3(
+%0java.lang.Long"__id*G*E7
+5com.wisilica.wiseconnect.model.request.OperateRequest"
+
+grpDvcId"Æ
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectModel/src/main/java/com/wisilica/wiseconnect/model/request/OperateRequest.java3 3(
+
+%0java.lang.LongB97
+5com.wisilica.wiseconnect.model.request.OperateRequest

@@ -1,0 +1,59 @@
+
+®com.wisilica.wiseconnect.dao.impl.AuthenticationDaoImpl#getAppInfoByDeviceIdBundlePackage(Ljava/lang/String;Ljava/lang/String;)Lcom/wisilica/wiseconnect/model/entity/AppInfo;
+__unknown_file ("paramAnnotations*›	
+paramAnnotations«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaY4 Y([û
+ø
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaX X(
+%2"
+__annotate*
+java.lang.Override*
+
+deviceIdjava.lang.Stringå
+â
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaY< Y(D
+deviceIdjava.lang.String"__annotation*
+
+%2€
+ý
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaX X(
+%3"
+__annotate*
+java.lang.Override*#
+!
+bundlePackagejava.lang.Stringê
+ç
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaYM Y(Z!
+bundlePackagejava.lang.String"__annotation*
+
+%3*
+1*Ý
+
+1«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaZ Z( Ì
+É
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaZ Z( ?
+%09com.wisilica.wiseconnect.dao.repository.AppInfoRepository"__id*R*P9
+7com.wisilica.wiseconnect.dao.impl.AuthenticationDaoImpl"
+appInfoRepositoryòï
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaZ Z(_3
+%1-com.wisilica.wiseconnect.model.entity.AppInfo"´com.wisilica.wiseconnect.dao.repository.AppInfoRepository#findAppInfoByDeviceIdAndBundlePackage(Ljava/lang/String;Ljava/lang/String;)Lcom/wisilica/wiseconnect/model/entity/AppInfo;*A
+?
+%09com.wisilica.wiseconnect.dao.repository.AppInfoRepository*
+
+deviceIdjava.lang.String*#
+!
+bundlePackagejava.lang.String2KfindAppInfoByDeviceIdAndBundlePackage(Ljava/lang/String;Ljava/lang/String;)"å
+«
+ /home/wisilica/Downloads/WiseStandard-oauth2_branch-1/wiseconnectSuite/wiseconnectDao/src/main/java/com/wisilica/wiseconnect/dao/impl/AuthenticationDaoImpl.javaZ Z(`5
+3
+%1-com.wisilica.wiseconnect.model.entity.AppInfo:
+deviceIdjava.lang.String:!
+bundlePackagejava.lang.StringB;9
+7com.wisilica.wiseconnect.dao.impl.AuthenticationDaoImpl

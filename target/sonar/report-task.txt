@@ -1,0 +1,7 @@
+organization=sandeepmehta2005-github
+projectKey=sandeepmehta2005_wiseconnectSuite
+serverUrl=https://sonarcloud.io
+serverVersion=7.8.0.23906
+dashboardUrl=https://sonarcloud.io/dashboard?id=sandeepmehta2005_wiseconnectSuite
+ceTaskId=AWpe6flGqdengcc13XHg
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWpe6flGqdengcc13XHg
