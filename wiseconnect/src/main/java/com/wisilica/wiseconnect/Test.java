@@ -26,4 +26,6 @@ public class Test {
 	//int new value
 
 	int i = 100;
+
+	int ii = 29;
 }
