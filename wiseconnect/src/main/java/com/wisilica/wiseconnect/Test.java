@@ -19,4 +19,11 @@ public class Test {
 //			System.out.println("Failed");
 //		}
 //	}
+
+
+
+
+	//int new value
+
+	int i = 100;
 }
